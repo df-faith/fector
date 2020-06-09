@@ -1,0 +1,93 @@
+[{
+    "type_id": 1,
+    "regex": ".*Stopping LSB: Apache2 web server.*"
+}, {
+    "type_id": 2,
+    "regex": ".*Stopping Apache httpd web server apache2.*"
+}, {
+    "type_id": 3,
+    "regex": ".*Stopped LSB: Apache2 web server.*"
+}, {
+    "type_id": 4,
+    "regex": ".*CRON.*: \\(root\\) CMD.*"
+}, {
+    "type_id": 5,
+    "regex": ".*Started Session .* of user .*"
+}, {
+    "type_id": 6,
+    "regex": ".*device (.*) entered.*",
+    "misc": 1
+}, {
+    "type_id": 7,
+    "regex":".*IPv6: ADDRCONF\\(NETDEV_UP\\): (.*):.*",
+    "misc": 1
+}, {
+    "type_id": 9,
+    "regex":  ".*IPv6: ADDRCONF\\(NETDEV_CHANGE\\): (.*):.*",
+    "misc": 1
+}, {
+    "type_id": 10,
+    "regex": ".*MAC address for (.*):.*",
+    "misc": 1
+}, {
+    "type_id": 11,
+    "regex": ".*shim containerd-shim started.* address=\"(.*)\".*",
+    "path": 1
+}, {
+    "type_id": 12,
+    "regex": ".* (.*): renamed from.*",
+    "misc": 1
+}, {
+    "type_id": 13,
+    "regex": ".*docker0: port.*\\((.*)\\).*forwarding.*",
+    "misc": 1
+}, {
+    "type_id": 14,
+    "regex": ".*docker0: port.*\\((.*)\\).*disabled.*",
+    "misc": 1
+}, {
+   "type_id": 15,
+   "regex": ".*ntpd.*Listen normally on \\d* (.*) .*",
+   "misc": 1
+}, {
+    "type_id": 16,
+    "regex": ".*shim reaped.*id=(.*)",
+    "misc": 1
+}, {
+    "type_id": 17,
+    "regex": ".*dockerd.*ignoring event.*"
+}, {
+    "type_id": 18,
+    "regex": ".*device (.*) left promiscuous.*",
+    "misc": 1
+}, {
+    "type_id": 19,
+    "regex": ".*ntpd.*Deleting interface #\\d* (.*),.*#.*",
+    "misc": 1
+}, {
+    "type_id": 20,
+    "regex": ".*ntpd.*assign.*"
+}, {
+    "type_id": 21,
+    "regex": ".*ntpd.*unable.*"
+}, {
+    "type_id": 22,
+    "regex": ".*ntpd.*init.*"
+}, {
+    "type_id": 23,
+    "regex": ".*ntpd.*new interface.*"
+}, {
+    "type_id": 24,
+    "regex": ".*pam_unix.*session opened.*"
+}, {
+    "type_id": 25,
+    "regex": ".*pam_unix.*session closed.*"
+}, {
+    "type_id": 26,
+    "regex": ".*pam_unix.*authentication failure.*"
+}, {
+    "type_id": 27,
+    "regex": ".*sudo.*wadmin.*COMMAND=(.*)",
+    "path": 1
+}
+]

@@ -1,0 +1,11 @@
+[
+	  {
+		  "id": 10,
+		  "name": "ls",
+		  "description": "Lists files",
+		  "class": "CLI",
+		  "delta_t": 5,
+		  "severity": "benign",
+		  "ssh": "sshLs"
+	  }
+]
